@@ -8,3 +8,22 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated reports and task records
+/runs/
+/report.md
+
+# Private documents used as retrieval input
+/docs/
+/mcp_notes/
+
+# Learning notes and earlier implementations (keep locally)
+/PROJECT_PLAN.md
+/问题与解决记录.md
+/main_stage4_backup.py
+/planner.py

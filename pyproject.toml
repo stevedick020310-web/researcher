@@ -4,7 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ddgs>=9.16.1",
+    "langchain-openai>=1.7.3",
+    "mcp>=2.3,<3",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 resh-m = "resh_m:main"
